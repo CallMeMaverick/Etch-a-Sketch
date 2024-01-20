@@ -25,3 +25,16 @@ const squares = document.getElementsByClassName("square");
 for (const square of squares) {
     square.addEventListener("mouseover", changeBackgroundColor);
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let slider = document.getElementById("grid-size");
+    let output = document.getElementById("grid-size-value");
+
+    output.textContent = slider.value + 'x' + slider.value;
+
+    slider.oninput = function() {
+        output.textContent = this.value + 'x' + this.value;
+    }
+});
+

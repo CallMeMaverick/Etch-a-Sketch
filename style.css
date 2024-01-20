@@ -1,8 +1,15 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
+}
+
+#input-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 
 #container {
