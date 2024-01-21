@@ -4,12 +4,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 70vh;
+    background-color: black;
 }
 
 #input-container {
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 #container {
@@ -17,7 +20,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 
-    /* Set a fixed size for the container */
     width: 500px;
     height: 500px;
 }

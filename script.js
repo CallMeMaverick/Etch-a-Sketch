@@ -28,7 +28,7 @@ function loadGrid(variable) {
 
             divToAppend.style.width = `${squareSize}px`;
             divToAppend.style.height = `${squareSize}px`;
-            divToAppend.style.border = "1px solid black";
+            divToAppend.style.border = "1px solid white";
 
             container.append(divToAppend);
         }
