@@ -9,11 +9,16 @@ body {
 
 #input-container {
     color: white;
+
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+
     margin-bottom: 40px;
     margin-top: 20px;
+
+    border-radius: 5px;
 }
+
 
 #container {
     display: flex;
